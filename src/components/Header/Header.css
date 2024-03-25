@@ -1,14 +1,16 @@
 .header{ 
+  height: 50px;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
 }
 
 .header-right{
-
-}
-
-.header-right NavLink {
-
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

@@ -1,0 +1,28 @@
+.home-elements{
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.img-container{
+
+}
+
+.my-photo{
+  width: 230px;
+  height: 300px;
+  border-radius: 20%;
+  border: 5px solid white;
+  padding: 20px;
+  
+}
+
+.text-container-home{
+  margin: 10px;
+  padding: 20px;
+}
+
+.surname{
+  color: rgb(128, 122, 122);
+}
