@@ -13,9 +13,9 @@ export const Header = () => {
           </Link>
         </div>
         <div className="header-right">
-          <NavLink className='nav-link' to="about">About</NavLink>
-          <NavLink to="projects">Projects</NavLink>
-          <NavLink to="contact">Contact</NavLink>
+          <NavLink className='about-link' to="about">About</NavLink>
+          <NavLink className='projects-link' to="projects">Projects</NavLink>
+          <NavLink className='contact-link' to="contact">Contact</NavLink>
         </div>
       </div>
     </>
