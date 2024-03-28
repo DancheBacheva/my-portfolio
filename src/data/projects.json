@@ -1,0 +1,31 @@
+[
+  {
+    "title": "StockDolphin",
+    "images": "assets/projects/dashboard-stockdolphin.png",
+    "description": "StockDolphin is an innovative Inventory System designed to revolutionise the way ITLabs offices manage and stock their supplies. With its advanced features StockDolphin aims to save costs by efficiently optimising the inventory of expandable items and automating the purchase record keeping process.",
+    "skills": ["React", "Express", "Node"],
+    "source": "https://github.com/DancheBacheva/ITLabs-StockDolphin"
+  },
+  {
+    "title": "The Office Chat App",
+    "images": "https://media.istockphoto.com/id/1411195926/photo/project-manager-working-on-laptop-and-updating-tasks-and-milestones-progress-planning-with.jpg?s=612x612&w=0&k=20&c=5A0CEsRbIrgnci0Q7LSxbrUZ1pliXy8C04ffpnjnVIw=",
+    "description": "A social network designed for socializing and exchanging information.",
+    "skills": ["Express", "Node", "Ejs"],
+    "source": "https://github.com/DancheBacheva/Semos-Assignement-Web-23"
+  },
+
+  {
+    "title": "Lingoline",
+    "images": "https://media.istockphoto.com/id/1411195926/photo/project-manager-working-on-laptop-and-updating-tasks-and-milestones-progress-planning-with.jpg?s=612x612&w=0&k=20&c=5A0CEsRbIrgnci0Q7LSxbrUZ1pliXy8C04ffpnjnVIw=",
+    "description": "The first online school for foreign languages in Macedonia that uses a specifically built virtual classroom for online education.",
+    "skills": ["HTML", "CSS"],
+    "source": "https://github.com/DancheBacheva/Osnovi_na_CSS_zadaci/tree/main/CSS_cas_10/My%20first%20project%20with%20HTML%20and%20CSS"
+  },
+  {
+    "title": "Rick and Morty",
+    "images": "https://media.istockphoto.com/id/1411195926/photo/project-manager-working-on-laptop-and-updating-tasks-and-milestones-progress-planning-with.jpg?s=612x612&w=0&k=20&c=5A0CEsRbIrgnci0Q7LSxbrUZ1pliXy8C04ffpnjnVIw=",
+    "description": "Fetching character data from RIck and Morty API using React, displaying essential information such as name, and status along with their location and detailed information upon click, as well as episodes featuring each character with detailed information accessible upon click, implementing pagination for enhanced user experience.",
+    "skills": ["React"],
+    "source": "https://github.com/DancheBacheva/React_JS/tree/main/c10exercises"
+  }
+]

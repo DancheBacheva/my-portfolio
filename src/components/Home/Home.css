@@ -14,7 +14,7 @@
   width: 250px;
   height: 320px;
   border-radius: 10%;
-  border: 10px solid rgb(14, 14, 177, 0.5);
+  border: 10px solid rgba(14, 14, 177, 0.5);
   padding: 10px;
 }
 

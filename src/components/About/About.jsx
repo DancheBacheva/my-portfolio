@@ -10,6 +10,7 @@ import { SiVisualstudiocode } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { FaSlack } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
+import data from "../../data/skills.json";
 
 export const About = () => {
   return (
@@ -46,7 +47,7 @@ export const About = () => {
         </Link>
       </div>
       <div className="skills-container">
-        <FaHtml5 />
+        {/* <FaHtml5 />
         <FaCss3Alt />
         <IoLogoJavascript />
         <br />
@@ -56,7 +57,12 @@ export const About = () => {
         <SiVisualstudiocode />
         <SiPostman />
         <FaSlack />
-        <FaDiscord />
+        <FaDiscord /> */}
+        {data.map((image, i) => (
+          <div key={i} className="icon-skill-container">
+             <img src={image} alt="skill" className="icon-skill" />
+          </div>
+        ))}
       </div>
     </>
   );
