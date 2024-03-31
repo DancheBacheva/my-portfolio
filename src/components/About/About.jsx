@@ -55,13 +55,13 @@ export const About = () => {
       </div>
       <div className="about-container">
         <span>
-          A graduate translator, <strong>passionate about IT,<br /></strong> aspiring to transition in the field of <strong>software
+          As an experienced translator with <strong>deep passion for IT,<br /></strong> I am excited about transitioning into the field of <strong>software
           development.</strong>
           <br />
           My background has provided me with excellent <strong>communication skills</strong> and <strong>attention to details</strong>, which I believe are
           crucial in software development.
           <br />
-          My passion for technology, particularly in <strong>back-end development,</strong>{" "}
+          My <strong>enthusiasm for technology,</strong> particularly in <strong>back-end development,</strong>{" "}
           <br />
           drives my ambition to excel in this field.
           
@@ -84,7 +84,7 @@ export const About = () => {
             <li>Bachelor's Degree</li>
           </ul>
         </div>
-        <div className="info-container">
+        <div className="skills-container">
           {data.map((image, i) => (
             <div key={i} className="icon-skill-container">
               <img src={image} alt="skill" className="icon-skill" />

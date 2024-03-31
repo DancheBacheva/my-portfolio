@@ -1,0 +1,31 @@
+.projects-container{
+  width: 980px;
+  height: 530px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.project-container{
+  width: 300px;
+  height: 450px;
+  border: 8px solid rgb(14, 14, 177, 0.5);
+  border-radius: 10px;
+  background-color: rgb(14, 14, 177, 0.5);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.project-container h3{
+  color: yellow;
+}
+
+.project-container p{
+  font-size: x-small;
+}
+
+.project-container img{
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(111, 111, 243, 0.801);
+}
