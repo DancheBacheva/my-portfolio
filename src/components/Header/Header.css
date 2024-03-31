@@ -25,8 +25,15 @@
 .contact-link:hover{
   max-width: 200px;
   max-height: 50px;
-  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
+  color:yellow;
+}
+
+.logo-db{
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  border: 3px solid rgba(252, 252, 0, 0.7);
+  margin-top: 5px;
   padding: 3px;
-  color: blue;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
 
 export const Header = () => {
   return (
@@ -9,7 +8,7 @@ export const Header = () => {
       <div className="header">
         <div className="header-left">
           <Link to="/" className="logo">
-          <FaHome />
+          <img src="src/assets/backgrounds/logoDB.png" alt="logo" className="logo-db"/>
           </Link>
         </div>
         <div className="header-right">
