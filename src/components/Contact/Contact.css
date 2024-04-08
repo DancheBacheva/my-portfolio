@@ -1,10 +1,12 @@
 .contact-container{
-  width: 980px;
+
   height: 230px;
-  background-color: rgb(14, 14, 177, 0.5);
-  border: 8px solid rgb(14, 14, 177, 0.5);
+  background-color: white;
+  color: #0693e3;
   border-radius: 10px;
   margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 6px 6px 8px 0px #00000040;
 }
 
 .contact-info{

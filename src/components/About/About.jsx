@@ -30,7 +30,20 @@ export const About = () => {
             </div>
           </div>
         </div>
-
+        <div className="about-container">
+        <span>
+          As an experienced translator with <strong>deep passion for IT,<br /></strong> I am excited about transitioning into the field of <strong>software
+          development.</strong>
+          <br />
+          My background has provided me with excellent <strong>communication skills</strong> and <strong>attention to details</strong>, which I believe are
+          crucial in software development.
+          <br />
+          My <strong>enthusiasm for technology,</strong> particularly in <strong>back-end development,</strong>{" "}
+          <br />
+          drives my ambition to excel in this field.
+          
+        </span>
+      </div>
         <div className="info-container">
           <h2>TRANSLATOR</h2>
           <div className="icons-container">
@@ -53,26 +66,13 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <div className="about-container">
-        <span>
-          As an experienced translator with <strong>deep passion for IT,<br /></strong> I am excited about transitioning into the field of <strong>software
-          development.</strong>
-          <br />
-          My background has provided me with excellent <strong>communication skills</strong> and <strong>attention to details</strong>, which I believe are
-          crucial in software development.
-          <br />
-          My <strong>enthusiasm for technology,</strong> particularly in <strong>back-end development,</strong>{" "}
-          <br />
-          drives my ambition to excel in this field.
-          
-        </span>
-      </div>
+      
       <div className="about-h2-container">
         <h2 className="education">Education</h2>
         <h2 className="skills">Skills</h2>
         <h2 className="experience">Experience</h2>
       </div>
-      <div className="about-h2-container">
+      <div className="about-content-container">
         <div className="info-container">
           <h3>SEMOS EDUCATION</h3>
           <ul>

@@ -2,7 +2,7 @@
   {
     "title": "StockDolphin",
     "images": "src/assets/projects/dashboard-stockdolphin.png",
-    "description": "StockDolphin is an innovative Inventory System designed to revolutionise the way ITLabs offices manage and stock their supplies. With its advanced features StockDolphin aims to save costs by efficiently optimising the inventory of expandable items and automating the purchase record keeping process.",
+    "description": "StockDolphin is an innovative Inventory System designed to revolutionise the way ITLabs offices manage and stock their supplies.",
     "skills": ["React", "Express", "Node"],
     "source": "https://github.com/DancheBacheva/ITLabs-StockDolphin"
   },
@@ -24,7 +24,7 @@
   {
     "title": "Rick and Morty",
     "images": "src/assets/projects/rickandmorty.png",
-    "description": "Fetching character data from RIck and Morty API using React, displaying essential information such as name, and status along with their location and detailed information upon click, as well as episodes featuring each character with detailed information accessible upon click, implementing pagination for enhanced user experience.",
+    "description": "Fetching character data from the Rick and Morty API using React, displaying essential information upon click, and implementing pagination for an enhanced user experience.",
     "skills": ["React"],
     "source": "https://github.com/DancheBacheva/React_JS/tree/main/c10exercises"
   }

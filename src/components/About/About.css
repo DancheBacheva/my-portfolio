@@ -6,22 +6,15 @@
 
 .info-container{
   width: 330px;
-  height: 330px;
-  border: 10px solid rgb(14, 14, 177, 0.5);
+  height: 230px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.info-container:hover{
-  width: 330px;
-  height: 330px;
-  background-color: rgb(14, 14, 177, 0.5);
-  border-radius: 10px;
-  margin: 20px;
+  box-shadow: 6px 6px 8px 0px #00000040;
+  background-color: white;
 }
 
 .icons-container{
@@ -49,34 +42,42 @@ h5{
 
 .about-container{
   max-width: 700px;
-  max-height: 500px;
-  background-color: rgb(14, 14, 177, 0.5);
+  height: 230px;
+  background-color: white;
+  color: #0693e3;
   border-radius: 10px;
   margin: 0 auto;
   padding: 30px 50px;
+  box-shadow: 6px 6px 8px 0px #00000040;
 }
 
 .about-container span{
-  color: yellow;
+ margin: 0 auto;
 }
 
 .about-h2-container{
-  max-width: 980px;
+  width: 100%;
+  max-width: 1980px;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(14, 14, 177, 0.5);
-  border-radius: 10px;
-  margin: 20px;
+  background-color: #0693e3;
+  margin: 20px 0;
+  box-shadow: 6px 6px 8px 0px #00000040;
+}
+
+.about-content-container{
+  display: flex;
+  justify-content: space-around;
 }
 
 .about-h2-container h2{
  width: 300px;
+ color: white;
 }
 
 .skills-container{
   width: 330px;
-  height: 330px;
-  border: 10px solid rgb(14, 14, 177, 0.5);
+  height: 230px;
   border-radius: 10px;
   margin: 20px;
   display: flex;
@@ -84,6 +85,8 @@ h5{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  box-shadow: 6px 6px 8px 0px #00000040;
+  background-color: white;
 }
 
 .icon-skill-container{
