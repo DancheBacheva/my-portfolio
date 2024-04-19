@@ -18,14 +18,14 @@ export const Contact = () => {
             <p>danchebacheva@gmail.com</p>
           </div>
           <div style={{ fontSize: "2rem" }}>
-            <Link to="https://github.com/DancheBacheva" target="_blanc">
+            <Link to="https://github.com/DancheBacheva" target="_blanc" style={{ color: 'inherit', textDecoration: 'none' }}>
               <FaGithub />
             </Link>
             <span style={{ marginRight: "1rem" }}></span>
             <Link
               to="https://www.linkedin.com/in/danche-bacheva-b3ab5a93/"
               target="_blanc"
-            >
+              style={{ color: 'inherit', textDecoration: 'none' }}>
               <FaLinkedin />
             </Link>
           </div>
