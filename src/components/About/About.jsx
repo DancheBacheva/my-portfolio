@@ -30,44 +30,42 @@ export const About = () => {
     <>
       <div className="about-info-container">
         <div className="about-container">
-          <h3 className="hi">Hi, I am Danche</h3>
-          <div className="profession">
-            <div className="info-container">
-              <h3>FULL-STACK DEVELOPER</h3>
-              <div className="icons-container">
-                <div className="icon-container">
-                  <img
-                    src="src/assets/about/atom.png"
-                    alt="react-icon"
-                    className="react-icon"
-                  />
-                </div>
-                <div className="icon-container">
-                  <img
-                    src="src/assets/about/nodejs.png"
-                    alt="nodejs-icon"
-                    className="nodejs-icon"
-                  />
-                </div>
+          <h3 className="hi">HI, I AM DANCHE</h3>
+          <div className="info-container">
+            <h3>FULL-STACK DEVELOPER</h3>
+            <div className="icons-container">
+              <div className="icon-container">
+                <img
+                  src="src/assets/about/atom.png"
+                  alt="react-icon"
+                  className="react-icon"
+                />
+              </div>
+              <div className="icon-container">
+                <img
+                  src="src/assets/about/nodejs.png"
+                  alt="nodejs-icon"
+                  className="nodejs-icon"
+                />
               </div>
             </div>
-            <div className="info-container">
-              <h3>TRANSLATOR</h3>
-              <div className="icons-container">
-                <div className="icon-container">
-                  <img
-                    src="src/assets/about/en.png"
-                    alt="en-icon"
-                    className="en-icon"
-                  />
-                </div>
-                <div className="icon-container">
-                  <img
-                    src="src/assets/about/fr.png"
-                    alt="fr-icon"
-                    className="fr-icon"
-                  />
-                </div>
+          </div>
+          <div className="info-container-translator">
+            <h3>TRANSLATOR</h3>
+            <div className="icons-container">
+              <div className="icon-container">
+                <img
+                  src="src/assets/about/en.png"
+                  alt="en-icon"
+                  className="en-icon"
+                />
+              </div>
+              <div className="icon-container">
+                <img
+                  src="src/assets/about/fr.png"
+                  alt="fr-icon"
+                  className="fr-icon"
+                />
               </div>
             </div>
           </div>
@@ -88,68 +86,77 @@ export const About = () => {
             My <strong>enthusiasm for technology,</strong> particularly in{" "}
             <strong>back-end development,</strong> <br />
             drives my ambition to excel in this field.
+            <p>
+              I believe that with genuine aspiration for success, discipline,
+              and perseverance, everything can be achieved, even the things that
+              may seem impossible at first.
+            </p>
+            <p>
+              Beyond my professional pursuits, I am passionate about travelling
+              and exploring new places.
+            </p>
           </div>
-        </div>
+          </div>
 
-        <div className="about-content-container">
-          <div className="details-container">
-            <div className="about-h2-container">
-              <h2 className="education" onClick={toggleEducation}>
-                Education
-              </h2>
-            </div>
-            {showEducation && (
-              <div className="education-container">
-                <h3>SEMOS EDUCATION</h3>
-                <ul>
-                  <li>JavaScript Developer</li>
-                </ul>
-                <h3>FACULTY OF PHILOLOGY</h3>
-                <ul>
-                  <li>Bachelor's Degree</li>
-                </ul>
+          <div className="about-content-container">
+            <div className="details-container">
+              <div className="about-h2-container">
+                <h2 className="education" onClick={toggleEducation}>
+                  Education
+                </h2>
               </div>
-            )}
-          </div>
-          <div className="details-container">
-            <div className="about-h2-container">
-              <h2 className="skills" onClick={toggleSkills}>
-                Skills
-              </h2>
+              {showEducation && (
+                <div className="education-container">
+                  <h3>SEMOS EDUCATION</h3>
+                  <ul>
+                    <li>JavaScript Developer</li>
+                  </ul>
+                  <h3>FACULTY OF PHILOLOGY</h3>
+                  <ul>
+                    <li>Bachelor's Degree</li>
+                  </ul>
+                </div>
+              )}
             </div>
-            {showSkills && (
-              <div className="skills-container">
-                {data.map((image, i) => (
-                  <div key={i} className="icon-skill-container">
-                    <img src={image} alt="skill" className="icon-skill" />
-                  </div>
-                ))}
+            <div className="details-container">
+              <div className="about-h2-container">
+                <h2 className="skills" onClick={toggleSkills}>
+                  Skills
+                </h2>
               </div>
-            )}
-          </div>
-          <div className="details-container">
-            <div className="about-h2-container">
-              <h2 className="experience" onClick={toggleExperience}>
-                Experience
-              </h2>
+              {showSkills && (
+                <div className="skills-container">
+                  {data.map((image, i) => (
+                    <div key={i} className="icon-skill-container">
+                      <img src={image} alt="skill" className="icon-skill" />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
-            {showExperience && (
-              <div className="experience-container">
-                <h3>
-                  Translator
-                  <br /> FINAL FICTION
-                </h3>
-                <ul>
-                  <li>
-                    Translating movies and tv-shows from English and French to
-                    Macedonian for Star network groups.
-                  </li>
-                  <li>Quality control of translations.</li>
-                </ul>
+            <div className="details-container">
+              <div className="about-h2-container">
+                <h2 className="experience" onClick={toggleExperience}>
+                  Experience
+                </h2>
               </div>
-            )}
+              {showExperience && (
+                <div className="experience-container">
+                  <h3>
+                    Translator
+                    <br /> FINAL FICTION
+                  </h3>
+                  <ul>
+                    <li>
+                      Translating movies and tv-shows from English and French to
+                      Macedonian for Star network groups.
+                    </li>
+                    <li>Quality control of translations.</li>
+                  </ul>
+                </div>
+              )}
+            </div>
           </div>
-        </div>
       </div>
     </>
   );

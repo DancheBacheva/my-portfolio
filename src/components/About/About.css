@@ -1,37 +1,81 @@
 .about-info-container{
+  width: 100%;
+  max-width: 1980px;
   display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin-left: 250px;
-  padding: 30px;
 }
 
-.info-container{
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutGradient {
+  0% {
+    background: white;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    background: linear-gradient(to bottom right, white, transparent);
+    opacity: 0; 
+    transform: translateY(10px);
+  }
+}
+
+.info-container, .info-container-translator {
   width: 430px;
   height: auto;
-  border-radius: 10px;
-  margin: 10px;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 4px 3px 3px #00000040;
-  background-color: white;
+  animation: fadeIn 1s ease-out;
+  transition: all 1s;
+  margin-left: 50px;
 }
 
-.hi{
-  font-size: xx-large;
+.info-container-translator {
+  margin-left: 150px;
 }
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hi {
+  font-size: xx-large;
+  display: flex;
+  margin: 10px 0 0 30px;
+  animation: textFadeIn 1s ease-in;
+  transition: transform 0.3s, color 0.3s;
+}
+
 
 .description-container{
-  width: 430px;
+  width: 630px;
   height: auto;
   border-radius: 10px;
-  margin-left: 30px;
-  margin-bottom: 20px;
+  margin: 20px;
+  padding: 20px;
   box-shadow: 0px 4px 3px 3px #00000040;
-  background-color: white;
+  background-color:#0693e3;
+  color: white;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .icons-container{
@@ -49,7 +93,6 @@
 .fr-icon{
   width: 40px;
   height: 30px;
-  /* margin: 10px; */
   border-radius: 50%;
 }
 
@@ -57,22 +100,11 @@ h5{
   margin: 0;
 }
 
-.profession{
-margin-left: 20px;
-}
-
 .about-container{
-  max-width: 800px;
-  height: auto;
-  background-image: url("/src/assets/about/image-coffee-keyboard.jpg");
-  background-size: cover;
-  background-position: center;
   color: #0693e3;
-  border-radius: 10px;
   margin: 0 auto;
   padding: 0px 10px;
-  box-shadow: 6px 6px 8px 0px #00000040;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .about-container span{
@@ -80,21 +112,16 @@ margin-left: 20px;
 }
 
 .details-container{
-  width: 100%;
-  max-width: 1980px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 10px 0; */
 }
 
 .about-h2-container{
-  width: 100%;
-  max-width: 1980px;
   display: flex;
   justify-content: space-evenly;
-  margin: 10px 0;
+  cursor: pointer;
 }
 
 .about-h2-container h2{
@@ -109,8 +136,6 @@ margin-left: 20px;
 }
 
 .about-content-container{
-  width: 100%;
-  max-width: 1980px;
   display: flex;
   flex-direction: column;
   color: #0693e3;
@@ -123,6 +148,8 @@ margin-left: 20px;
   border-radius: 10px;
   box-shadow: 6px 6px 8px 0px #00000040;
   background-color: white;
+  font-size: 15px;
+  padding: 0 15px 0 0;
 }
 
 .skills-container{
