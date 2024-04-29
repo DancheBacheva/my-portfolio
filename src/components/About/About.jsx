@@ -88,7 +88,7 @@ export const About = () => {
             drives my ambition to excel in this field.
             <p>
               I believe that with genuine aspiration for success, discipline,
-              and perseverance, everything can be achieved, even the things that
+              and perseverance, anything can be achieved, even the things that
               may seem impossible at first.
             </p>
             <p>

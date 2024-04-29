@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 @keyframes fadeIn {
@@ -179,4 +180,48 @@ h5{
 .icon-skill{
   width: 40px;
   height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .info-container, .info-container-translator {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .hi {
+    font-size: x-large;
+    margin-left: 90px;
+  }
+  
+  .description-container{
+    width: 350px;
+    font-size: smaller;
+  }
+
+  .about-h2-container h2{
+    width: 200px;
+    font-size:medium;
+  }  
+
+  .education-container,
+  .experience-container{
+  width: 200px;
+  height: 200px;
+  font-size: 12px;
+}
+
+.skills-container{
+  width: 200px;
+  height: 200px;
+}
+
+.icon-skill-container{
+  width: 40px;
+  height: 40px;
+}
+
+.icon-skill{
+  width: 30px;
+  height: 30px;
+}
 }
