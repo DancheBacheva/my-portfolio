@@ -85,7 +85,7 @@ export const About = () => {
             <br />
             My <strong>enthusiasm for technology,</strong> particularly in{" "}
             <strong>back-end development,</strong> <br />
-            drives my ambition to excel in this field.
+            drives my ambition to excel in this field. I enjoy learning new technologies and staying updated with industry trends.
             <p>
               I believe that with genuine aspiration for success, discipline,
               and perseverance, anything can be achieved, even the things that
@@ -109,7 +109,7 @@ export const About = () => {
                 <div className="education-container">
                   <h3>SEMOS EDUCATION</h3>
                   <ul>
-                    <li>JavaScript Developer</li>
+                    <li><a href="https://karierencentar.com/rising-star/dance-baceva.html" target="_blanc">JavaScript Developer</a></li>
                   </ul>
                   <h3>FACULTY OF PHILOLOGY</h3>
                   <ul>

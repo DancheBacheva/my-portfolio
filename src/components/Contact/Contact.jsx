@@ -1,8 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { Link } from "react-router-dom";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 
 export const Contact = () => {
   return (
@@ -29,6 +28,7 @@ export const Contact = () => {
               <FaLinkedin />
             </Link>
           </div>
+          {/* <button className="download-btn"><FaFileDownload /> Download CV</button> */}
         </div>
       </div>
     </>

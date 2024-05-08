@@ -3,6 +3,7 @@ import "./Home.css";
 
 export const Home = () => {
   return (
+    <>
     <div className="home-elements">
       <div className="img-container-home">
         <div className="photo-flow">
@@ -14,5 +15,6 @@ export const Home = () => {
         <h2>FULL-STACK JAVASCRIPT DEVELOPER</h2>
       </div>
     </div>
+    </>
   );
 };
