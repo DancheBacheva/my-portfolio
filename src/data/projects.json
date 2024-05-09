@@ -1,14 +1,14 @@
 [
   {
     "title": "StockDolphin",
-    "images": "src/assets/projects/dashboard-stockdolphin.png",
+    "images": "projects/dashboard-stockdolphin.png",
     "description": "StockDolphin is an innovative Inventory System designed to revolutionise the way ITLabs offices manage and stock their supplies.",
     "skills": ["React", "Express", "Node"],
     "source": "https://github.com/DancheBacheva/ITLabs-StockDolphin"
   },
   {
     "title": "The Office Chat App",
-    "images": "src/assets/projects/officechatapp.png",
+    "images": "projects/officechatapp.png",
     "description": "A social network designed for socializing and exchanging information.",
     "skills": ["Express", "Node", "Ejs"],
     "source": "https://github.com/DancheBacheva/Semos-Assignement-Web-23"
@@ -16,14 +16,14 @@
 
   {
     "title": "Lingoline",
-    "images": "src/assets/projects/lingoline.png",
+    "images": "projects/lingoline.png",
     "description": "The first online school for foreign languages in Macedonia that uses a specifically built virtual classroom for online education.",
     "skills": ["HTML", "CSS"],
     "source": "https://github.com/DancheBacheva/Osnovi_na_CSS_zadaci/tree/main/CSS_cas_10/My%20first%20project%20with%20HTML%20and%20CSS"
   },
   {
     "title": "Rick and Morty",
-    "images": "src/assets/projects/rickandmorty.png",
+    "images": "projects/rickandmorty.png",
     "description": "Fetching character data from the Rick and Morty API using React, displaying essential information upon click, and implementing pagination for an enhanced user experience.",
     "skills": ["React"],
     "source": "https://github.com/DancheBacheva/React_JS/tree/main/c10exercises"

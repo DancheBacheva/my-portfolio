@@ -4,12 +4,12 @@ import data from "../../data/projects.json";
 
 export const Projects = () => {
   const skillIcons = {
-    React: "src/assets/about/atom.png",
-    Express: "src/assets/about/express.png",
-    Node: "src/assets/about/nodejs.png",
-    Ejs: "src/assets/about/ejs.png",
-    HTML: "src/assets/about/html-5.png",
-    CSS: "src/assets/about/css-3.png",
+    React: "about/atom.png",
+    Express: "about/express.png",
+    Node: "about/nodejs.png",
+    Ejs: "about/ejs.png",
+    HTML: "about/html-5.png",
+    CSS: "about/css-3.png",
   };
   return (
     <>

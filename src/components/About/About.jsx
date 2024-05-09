@@ -36,14 +36,14 @@ export const About = () => {
             <div className="icons-container">
               <div className="icon-container">
                 <img
-                  src="src/assets/about/atom.png"
+                  src="about/atom.png"
                   alt="react-icon"
                   className="react-icon"
                 />
               </div>
               <div className="icon-container">
                 <img
-                  src="src/assets/about/nodejs.png"
+                  src="about/nodejs.png"
                   alt="nodejs-icon"
                   className="nodejs-icon"
                 />
@@ -55,14 +55,14 @@ export const About = () => {
             <div className="icons-container">
               <div className="icon-container">
                 <img
-                  src="src/assets/about/en.png"
+                  src="about/en.png"
                   alt="en-icon"
                   className="en-icon"
                 />
               </div>
               <div className="icon-container">
                 <img
-                  src="src/assets/about/fr.png"
+                  src="about/fr.png"
                   alt="fr-icon"
                   className="fr-icon"
                 />
