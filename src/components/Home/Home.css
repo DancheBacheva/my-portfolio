@@ -59,6 +59,8 @@
 
 @media only screen and (max-width: 768px) {
   .home-elements{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
@@ -67,15 +69,15 @@
   }
 
   .img-container-home{
-    margin-bottom: 50px;
+    margin: 0 auto;
     padding-bottom: 0;
   }
 
   .my-photo{
-    margin-left: 80px;
+    margin-left: 70px;
     margin-bottom: 0;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
   
   .text-container-home{
@@ -83,9 +85,11 @@
     height: 120px;
     font-size: xx-small;
     background-color:white;
-    position: relative;
-    bottom: 200px;
-    right: 20px;
+    /* position: relative; */
+    /* bottom: 200px;
+    right: 20px; */
+    margin: 0 auto;
+    margin-left: 60px;
   }
   
 }
