@@ -2,10 +2,13 @@
   "about/html-5.png",
   "about/css-3.png",
   "about/java-script.png",
+  "about/typescript.png",
+  "about/atom.png",
+  "about/jira.png",
   "about/nodejs.png",
   "about/mongodb.png",
-  "about/atom.png",
+  "about/postman-icon.png",
   "about/git-icon.png",
   "about/github.png",
-  "about/postman-icon.png"
+  "about/gitlab.png"
 ]

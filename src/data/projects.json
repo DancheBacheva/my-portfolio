@@ -7,13 +7,26 @@
     "source": "https://github.com/DancheBacheva/ITLabs-StockDolphin"
   },
   {
+    "title": "Baby's Food Place",
+    "images": "projects/babys-food-place.png",
+    "description": "Baby's Food Place is a user-friendly recipe management app designed to help families discover, save, and organize their favorite meals.",
+    "skills": ["React", "Express", "Node"],
+    "source": "https://github.com/DancheBacheva/Baby-s-Food-Place"
+  },
+  {
     "title": "The Office Chat App",
     "images": "projects/officechatapp.png",
     "description": "A social network designed for socializing and exchanging information.",
     "skills": ["Express", "Node", "Ejs"],
     "source": "https://github.com/DancheBacheva/Semos-Assignement-Web-23"
   },
-
+  {
+    "title": "My Portfolio",
+    "images": "projects/portfolio-hero-section.png",
+    "description": "Welcome to my portfolio! Discover my journey as a developer, see my skills and projects, and feel free to reach out!",
+    "skills": ["React", "HTML", "CSS"],
+    "source": "https://github.com/DancheBacheva/my-portfolio"
+  },
   {
     "title": "Lingoline",
     "images": "projects/lingoline.png",
@@ -21,11 +34,28 @@
     "skills": ["HTML", "CSS"],
     "source": "https://github.com/DancheBacheva/Osnovi_na_CSS_zadaci/tree/main/CSS_cas_10/My%20first%20project%20with%20HTML%20and%20CSS"
   },
+
+  {
+    "title": "Youtube-Clone",
+    "images": "projects/youtube-clone.png",
+    "description": "A responsive YouTube homepage clone built with HTML and CSS, replicating YouTube's design and basic navigation with clickable video links.",
+    "skills": ["HTML", "CSS"],
+    "source": "https://github.com/DancheBacheva/Youtube-Clone"
+  },
+
   {
     "title": "Rick and Morty",
     "images": "projects/rickandmorty.png",
     "description": "Fetching character data from the Rick and Morty API using React, displaying essential information upon click, and implementing pagination for an enhanced user experience.",
     "skills": ["React"],
     "source": "https://github.com/DancheBacheva/React_JS/tree/main/c10exercises"
+  },
+
+  {
+    "title": "Dynamic engineering",
+    "images": "projects/dynamicEngineering.png",
+    "description": "Simple landing page made with HTML and CSS",
+    "skills": ["HTML", "CSS"],
+    "source": "https://github.com/DancheBacheva/Thrasker-task"
   }
 ]
