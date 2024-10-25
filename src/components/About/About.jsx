@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
 import data from "../../data/skills.json";
-import { GiHand } from "react-icons/gi";
+import { PiHandWavingBold } from "react-icons/pi";
 
 export const About = () => {
   // const [showEducation, setShowEducation] = useState(false);
@@ -33,7 +33,7 @@ export const About = () => {
         <div className="about-container">
           <h3 className="hi">
             {" "}
-            <GiHand style={{ marginTop: "8px" }} />
+            <PiHandWavingBold style={{ marginTop: "8px" }} />
             &nbsp; HI, I AM DANCHE
           </h3>
           <div className="info-container">

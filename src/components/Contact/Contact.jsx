@@ -31,7 +31,7 @@ export const Contact = () => {
               target="_blanc"
               style={{ color: "inherit", textDecoration: "none" }}
             >
-              <FaGithub />
+              <FaGithub className="social" />
             </Link>
             <span style={{ marginRight: "1rem" }}></span>
             <Link
@@ -39,7 +39,7 @@ export const Contact = () => {
               target="_blanc"
               style={{ color: "inherit", textDecoration: "none" }}
             >
-              <FaLinkedin />
+              <FaLinkedin className="social" />
             </Link>
           </div>
           <button className="download-btn" onClick={handleDownload}>
