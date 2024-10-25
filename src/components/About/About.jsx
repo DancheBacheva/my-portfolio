@@ -2,38 +2,43 @@ import React, { useState } from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
 import data from "../../data/skills.json";
+import { GiHand } from "react-icons/gi";
 
 export const About = () => {
-  const [showEducation, setShowEducation] = useState(false);
-  const [showSkills, setShowSkills] = useState(false);
-  const [showExperience, setShowExperience] = useState(false);
+  // const [showEducation, setShowEducation] = useState(false);
+  const [showSkills, setShowSkills] = useState(true);
+  // const [showExperience, setShowExperience] = useState(false);
 
-  const toggleEducation = () => {
-    setShowEducation(!showEducation);
-    setShowSkills(false);
-    setShowExperience(false);
-  };
+  // const toggleEducation = () => {
+  //   setShowEducation(!showEducation);
+  //   setShowSkills(false);
+  //   setShowExperience(false);
+  // };
 
   const toggleSkills = () => {
     setShowSkills(!showSkills);
-    setShowEducation(false);
-    setShowExperience(false);
+    // setShowEducation(false);
+    // setShowExperience(false);
   };
 
-  const toggleExperience = () => {
-    setShowExperience(!showExperience);
-    setShowEducation(false);
-    setShowSkills(false);
-  };
+  // const toggleExperience = () => {
+  //   setShowExperience(!showExperience);
+  //   setShowEducation(false);
+  //   setShowSkills(false);
+  // };
 
   return (
     <>
       <div className="about-info-container">
         <div className="about-container">
-          <h3 className="hi">HI, I AM DANCHE</h3>
+          <h3 className="hi">
+            {" "}
+            <GiHand style={{ marginTop: "8px" }} />
+            &nbsp; HI, I AM DANCHE
+          </h3>
           <div className="info-container">
-            <h3>FULL-STACK DEVELOPER</h3>
-            <div className="icons-container">
+            <h3>FULL-STACK DEVELOPER OF WEB APPLICATIONS </h3>
+            {/* <div className="icons-container">
               <div className="icon-container">
                 <img
                   src="about/atom.png"
@@ -48,58 +53,55 @@ export const About = () => {
                   className="nodejs-icon"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
-          <div className="info-container-translator">
+          {/* <div className="info-container-translator">
             <h3>TRANSLATOR</h3>
             <div className="icons-container">
               <div className="icon-container">
-                <img
-                  src="about/en.png"
-                  alt="en-icon"
-                  className="en-icon"
-                />
+                <img src="about/en.png" alt="en-icon" className="en-icon" />
               </div>
               <div className="icon-container">
-                <img
-                  src="about/fr.png"
-                  alt="fr-icon"
-                  className="fr-icon"
-                />
+                <img src="about/fr.png" alt="fr-icon" className="fr-icon" />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="description-container">
-            As an experienced translator with{" "}
-            <strong>
-              deep passion for IT,
-              <br />
-            </strong>{" "}
-            I am excited about transitioning into the field of{" "}
-            <strong>software development.</strong>
-            <br />
-            My background has provided me with excellent{" "}
-            <strong>communication skills</strong> and{" "}
-            <strong>attention to details</strong>, which I believe are crucial
-            in software development.
-            <br />
-            My <strong>enthusiasm for technology,</strong> particularly in{" "}
-            <strong>back-end development,</strong> <br />
-            drives my ambition to excel in this field. I enjoy learning new technologies and staying updated with industry trends.
             <p>
-              I believe that with genuine aspiration for success, discipline,
-              and perseverance, anything can be achieved, even the things that
-              may seem impossible at first.
+              Hey there! I’m a translator turned tech enthusiast on a mission to
+              bring ideas to life through software development. Back-end coding?
+              Front-end coding? I’m all over it! From crafting responsive
+              front-end designs to building solid back-end structures, I’m
+              diving into both worlds with enthusiasm!
+            </p>{" "}
+            <p>
+              {" "}
+              My background in translation means I’ve got an eye for detail and
+              communication skills that keep my code clean and{" "}
+              <Link
+                to="/projects"
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  backgroundColor: "blue",
+                  padding: "4px 8px",
+                  borderRadius: "4px",
+                }}
+              >
+                <strong>my projects</strong>
+              </Link>{" "}
+              on point.
             </p>
             <p>
-              Beyond my professional pursuits, I am passionate about travelling
-              and exploring new places.
+              When I’m not coding or exploring new tech trends, I’m likely off
+              chasing travel adventures and finding inspiration in new places.
+              Ready to turn visions into reality—one line of code at a time!
             </p>
           </div>
-          </div>
+        </div>
 
-          <div className="about-content-container">
-            <div className="details-container">
+        <div className="about-content-container">
+          {/* <div className="details-container">
               <div className="about-h2-container">
                 <h2 className="education" onClick={toggleEducation}>
                   Education
@@ -117,24 +119,24 @@ export const About = () => {
                   </ul>
                 </div>
               )}
+            </div> */}
+          <div className="details-container">
+            <div className="about-h2-container">
+              <h2 className="skills" onClick={toggleSkills}>
+                Skills
+              </h2>
             </div>
-            <div className="details-container">
-              <div className="about-h2-container">
-                <h2 className="skills" onClick={toggleSkills}>
-                  Skills
-                </h2>
+            {showSkills && (
+              <div className="skills-container">
+                {data.map((image, i) => (
+                  <div key={i} className="icon-skill-container">
+                    <img src={image} alt="skill" className="icon-skill" />
+                  </div>
+                ))}
               </div>
-              {showSkills && (
-                <div className="skills-container">
-                  {data.map((image, i) => (
-                    <div key={i} className="icon-skill-container">
-                      <img src={image} alt="skill" className="icon-skill" />
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-            <div className="details-container">
+            )}
+          </div>
+          {/* <div className="details-container">
               <div className="about-h2-container">
                 <h2 className="experience" onClick={toggleExperience}>
                   Experience
@@ -155,8 +157,8 @@ export const About = () => {
                   </ul>
                 </div>
               )}
-            </div>
-          </div>
+            </div> */}
+        </div>
       </div>
     </>
   );

@@ -33,7 +33,7 @@
 
 .info-container,
 .info-container-translator {
-  width: 430px;
+  /* width: 430px; */
   height: auto;
   display: flex;
   justify-content: center;
@@ -117,6 +117,7 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
 }
 
 .about-h2-container {
@@ -194,6 +195,7 @@ h5 {
   }
 
   .description-container {
+    margin: 0 auto;
     width: 350px;
     font-size: smaller;
   }
