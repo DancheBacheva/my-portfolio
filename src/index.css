@@ -1,36 +1,66 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 :root {
+  --primary-color: #0693e3;
+  --primary-bg-color: #fff;
+  --primary-text-color: #333;
+  --secondary-bg-color: #444;
+  --secondary-text-color: #ddd;
+  --text-gray-color: grey;
+  --hover-bg-color: rgba(6, 147, 227, 0.5);
+  --shadow-color: #00000040;
+
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --background-color: #ffffff;
+  --text-color: #213547;
+  --container-bg-color: #f1f1f1;
+  --container-text-color: #ffffff;
+  --background-image: url("../backgrounds/Untitled_Artwork7.jpg");
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  color: var(--text-color);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body.dark-mode {
+  --background-color: #242424;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --container-bg-color: #333333;
+  --container-text-color: #000000;
+  --background-image: url("../backgrounds/Untitled_Artwork.jpg");
+}
+
+.themed-container {
+  background-color: var(--container-bg-color);
+  color: var(--container-text-color);
+  padding: 1em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
   font-weight: 500;
   text-decoration: inherit;
 }
-a:hover {
-  color: white;
-}
 
-body {
-  margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
-  background-image: url('../backgrounds/Untitled_Artwork7.jpg');
-  background-size: cover;
-  color: black;
+a:hover {
+  color: var(--text-color);
 }
 
 h1 {
@@ -38,15 +68,53 @@ h1 {
   line-height: 1.1;
 }
 
+button {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --background-color: #ffffff;
+    --text-color: #213547;
+    --container-bg-color: #f1f1f1;
+    --container-text-color: #000000;
+    --background-image: url("../backgrounds/Untitled_Artwork7.jpg");
   }
+
   a:hover {
-    color: #0693e3;
+    color: var(--primary-color);
   }
+
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #242424;
+    --text-color: rgba(255, 255, 255, 0.87);
+    --container-bg-color: #333333;
+    --container-text-color: #ffffff;
+    --background-image: url("../backgrounds/Untitled_Artwork.jpg");
+  }
+
+  a:hover {
+    color: var(--primary-color);
+  }
+
+  button {
+    background-color: #444444;
   }
 }
