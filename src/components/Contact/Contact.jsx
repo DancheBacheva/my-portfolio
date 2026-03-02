@@ -17,10 +17,10 @@ export const Contact = () => {
     <>
       <div>
         <div className="contact-container">
-          <div className="contact-info">
+          {/* <div className="contact-info">
             <img src="contact/mobile-icon.png" alt="" />
-            <p>+389 71 743 981</p>
-          </div>
+            <p>+XXX XX XXX XXX</p>
+          </div> */}
           <div className="contact-info">
             <img src="contact/gmail-icon.png" alt="" />
             <p>danchebacheva@gmail.com</p>
